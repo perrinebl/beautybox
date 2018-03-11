@@ -1,0 +1,297 @@
+.mynavbar {
+  background-color: #FFC7C7;
+  height: 70px;
+  box-shadow: 0px 0px 1px #8785A2;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+.mynavbar-fixed {
+  position: fixed;
+}
+
+.logo {
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.navbar-links {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links a {
+  text-decoration: none !important;
+  color: white;
+  font-size: 16px;
+  margin-right: 20px;
+  font-family: 'Roboto', sans-serif;
+  transition: background-color 1s ease-out;
+  transform: perspective(1px) translateZ(0);
+  transition-property: transform;
+  transition-duration: 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #8785A2;
+  transform: translateY(-5px);
+}
+
+.navbar-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: fixed;
+}
+
+.dropdown-menu-right .dropdown-item {
+  color: #8785A2;
+  font-family: 'Roboto', sans-serif;
+  transition: background-color 1s ease-out;
+  transform: perspective(1px) translateZ(0);
+  transition-property: transform;
+  transition-duration: 0.3s;
+  font-size: 16px;
+}
+
+.dropdown-menu-right .dropdown-item:hover {
+  color: #FFC7C7;
+}
+
+.hamburger {
+  margin-right: 20px;
+  color: white;
+  transition: transition: background-color 1s ease-out;
+}
+
+.hamburger:hover {
+  color: #8785A2;
+  cursor: pointer;
+}
+
+#banner {
+  position: relative;
+  background: linear-gradient(135deg, rgba(50, 50, 50, 0.5) 40%, rgba(127, 127, 127, 0.4) 60%), url("https://www.dermstore.com/blog/wp-content/uploads/2017/07/featured-vegan-natural-beauty.jpg");
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+#banner .beauty {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 40px;
+  text-shadow: 1px 1px 5px grey;
+}
+
+#banner .box {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  font-size: 23px;
+  margin-bottom: 60px;
+}
+
+#banner .button {
+  background-color: #FFC7C7;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 26px;
+  text-decoration: none;
+  border-radius: 10px;
+  width: auto;
+  padding: 8px;
+  margin: 8px;
+  transition: background-color 1s ease-out;
+}
+
+#banner .button:hover {
+  background: #8785A2;
+  text-decoration: none;
+  color: white;
+}
+
+#banner a.btn-arrow {
+  position: absolute;
+  bottom: 15px;
+  margin-bottom: 7px;
+}
+
+#banner .fas {
+  color: #FFC7C7;
+  font-size: 70px;
+  margin-top: 60px;
+  transition: color 1s ease-out;
+  text-align: center;
+}
+
+#banner .fas:hover {
+  color: #8785A2;
+  text-decoration: none;
+}
+
+#offre {
+  background: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+#offre h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #8785A2;
+  padding-bottom: 50px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+#offre h3 {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  color: #FFC7C7;
+  text-align: center;
+}
+
+#offre p {
+  font-family: 'Roboto', sans-serif;
+  color:#8785A2;
+  font-size: 16px;
+  text-align: center;
+}
+
+.make-up {
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.card {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-danger {
+  border: none;
+  background: #FFC7C7;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  transition: background-color 1s ease-out;
+}
+
+.btn-danger:hover {
+  background-color: #8785A2;
+  color: white;
+}
+
+#newsletter {
+  padding: 60px 0px 50px;
+  text-align: center;
+  background-color: #F6F6F6;
+}
+
+#newsletter h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #8785A2;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+#newsletter .form-control {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  border: 0.5px solid #8785A2;
+}
+
+#newsletter .btn {
+  background-color: #8785A2;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 16px;
+  transition: background-color 0.8s ease-out;
+}
+
+#newsletter .btn:hover {
+  background-color: #616075;
+}
+
+#newsletter .btn:active{
+	transform: scale(1.025);
+}
+
+#footer {
+  padding: 30px;
+  background: #8785A2;
+  color: lightgrey;
+  text-align: center;
+}
+
+#footer h1 {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px
+}
+
+#footer ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+#footer a {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.5s ease-out;
+}
+
+#footer a:hover {
+  color: #FFC7C7;
+  text-decoration: none;
+}
+
+#footer .suivez .fab {
+  font-size: 30px;
+  color: #ECEAED;
+  margin-top: 10px;
+  transition: color 0.5s ease-out;
+}
+
+#footer .fab:hover {
+  color: #FFC7C7;
+  text-decoration: none;
+}
+
+#footer .footer-copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255,255,255,.2);
+  margin-top: 20px;
+  font-size: 15px;
+  color: white;
+}
+
+#footer .footer-copyright p {
+  margin-top: 22px;
+}
+
+#footer .footer-copyright img {
+  width: 40px;
+  margin-right: 10px;
+  margin-top: 12px;
+}
